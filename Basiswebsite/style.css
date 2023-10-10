@@ -1,154 +1,135 @@
-*{
+* {
 
     margin-top: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{ 
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(0, 0, 0);
 }
 
 
-nav{
-    width: 60%;
-    margin: auto;
-    margin-top: 2%;
-    grid-gap: 40px;
-    text-align: left;
-    color:#000;
-    text-decoration: none;
-}
-
-img.logo{
+img.logo {
     margin-top: -121px;
-    width:60%;
-    margin-inline:50%;
+    width: 60%;
+    margin-inline: 50%;
     text-align: center;
-    
+
 }
 
 a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-article{
-color:white;
-color: white;
-text-align: center;
-font-size: 45px;
-padding: 91px;
-font-family:monospace;
+article {
+    color: white;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 91px;
+    font-family: monospace;
 
 }
 
-li{
+li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: none;
     display: inline;
     padding: 10px;
     text-transform: uppercase;
     cursor: pointer;
-    color:black
+    color: black
 }
 
 
-li:hover{
+li:hover {
     font-weight: 900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-i{
+i {
     margin-right: 10px;
     cursor: pointer;
 }
-  
 
-i:hover{
+
+i:hover {
     transform: scale(1.5);
 }
 
-.gif{
+.gif {
     width: 100%;
     background-color: #000;
     background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExangzam84NjU0YTNvNWJtMnJiYWdpbXZmNHoxZHJud2sxMW8wcTJ6NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BOPAzQiBMakUAY69U3/giphy.gif);
     background-position: center;
     background-size: 40%;
     color: #fff;
-    display:flex;
+    display: flex;
     margin-top: auto;
     height: 500px;
 
+}
+
+.gif h1 {
+    font-size: 75px;
+    margin-top: 12%;
+    color: #fff;
+    padding: 153px;
+    margin: 261px;
+    margin-top: 117px;
+    font-family: monospace;
+    text-align: center;
+
+    .gif p {
+        background: #39393939;
+        outline: none;
+        padding: 15px 35px;
+        color: #fff;
+        margin-top: 25px;
+        font-weight: 500;
+        letter-spacing: 1px;
     }
-    
-    .gif h1{
-        font-size:75px;
-        margin-top:12%;
-        color:#fff;
-        padding:153px;
-        margin:261px;
-        margin-top:117px;
-        font-family: monospace;
-        text-align: center;
-
-.gif p{
-    background: #39393939;
-    outline: none;
-    padding: 15px 35px;
-    color:#fff;
-    margin-top: 25px;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
 
 }
-header{
+
+header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 3%;
     margin-bottom: 2%;
 }
 
-h2{
-    color: rgb(232, 88, 4);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 5%;
-    text-align: center;
-}
 
-.gif{
+.gif {
     width: 100%;
     background-image: url(https://media.giphy.com/media/BOPAzQiBMakUAY69U3/giphy.gif);
-    background-position:center;
+    background-position: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-h2{
-color: rgb(232, 88, 4);
-font-family: 'microgamma D Bold Extended';
-text-align: center; 
-display: flex;
-max-width: 1200px;
-width: 100%;
-flex-wrap: wrap;
-justify-content: center;
-margin: 96px;
-margin-top: 41px;
+h2 {
+    color: rgb(232, 88, 4);
+    font-family: 'microgamma D Bold Extended';
+    text-align: center;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 41px;
 }
 
 
-
-
-footer{
+footer {
     text-align: center;
 }
- 
 
-.about{
+.about {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,7 +141,7 @@ footer{
     text-align: center;
 }
 
-.mission{
+.mission {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,7 +153,7 @@ footer{
     text-align: center;
 }
 
-.vision{
+.vision {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -184,34 +165,36 @@ footer{
     text-align: center;
 }
 
-h2{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 
 
-img.alignright{
-    float:right;
+img.alignright {
+    float: right;
     padding: 10px;
     width: 150px;
 }
 
 
-body{
+body {
     background: rgb(0, 0, 0);
 }
-.box-area{
+
+.box-area {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.single-box{
+
+.single-box {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -228,13 +211,13 @@ body{
 
 }
 
-.img-area{
+.img-area {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80px;
     height: 80px;
-    border: 6px solid #ddd ;
+    border: 6px solid #ddd;
     border-radius: 50%;
     margin-bottom: 10px;
     padding: 20px;
@@ -242,126 +225,133 @@ body{
     background-position: center center;
 
 }
-.single-box:nth-child(1) .img-area{
-    background-image:url(images/Edit\ image.jpg)
-}
-.single-box:nth-child(2) .img-area{
-    background-image:url(images/graphic\ design.jpg)
-}
-.single-box:nth-child(3) .img-area{
-    background-image:url(images/mediamanger\ images.jpg)
-    
+
+.single-box:nth-child(1) .img-area {
+    background-image: url(images/Edit\ image.jpg)
 }
 
-.header-text{
+.single-box:nth-child(2) .img-area {
+    background-image: url(images/graphic\ design.jpg)
+}
+
+.single-box:nth-child(3) .img-area {
+    background-image: url(images/mediamanger\ images.jpg)
+}
+
+.header-text {
     font-size: 24px;
     font-weight: 500;
     line-height: 48px;
 }
 
-.image-text{
+.image-text {
     font-family: Poppins;
     padding-top: 20px;
 
 }
-.img-text p{
+
+.img-text p {
     font-size: 15px;
     font-weight: 400;
-    font-weight:30px
+    font-weight: 30px
 }
 
-.single-box:hover{
+.single-box:hover {
     background: rgb(232, 88, 4);
     color: #fff;
 
 
 }
 
-body{
+body {
     background: rgb(0, 0, 0);
     font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container p{
-    text-align: left;
-  text-align: center;
-}
-
-.contact-text{
+.container p {
     text-align: left;
     text-align: center;
-    color:white;
+}
+
+.contact-text {
+    text-align: left;
+    text-align: center;
+    color: white;
 
 }
-.container{
+
+.container {
     width: 80%;
     margin: 50px auto;
 }
-.contact-box{
+
+.contact-box {
     background-color: #fff;
     display: flex;
 }
-.contact-left{
+
+.contact-left {
     flex-basis: 60%;
     padding: 40px 60px;
 }
-.contact-right{
+
+.contact-right {
     flex-basis: 40%;
     padding: 40px;
     background: rgb(232, 88, 4);
-    color: #fff;   
+    color: #fff;
 }
 
-h3{
+h3 {
     margin-bottom: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color:white;
+    color: white;
     margin-top: 112px;
 }
 
 
-h4{
-    text-align: center; 
-display: flex;
+h4 {
+    text-align: center;
+    display: flex;
     max-width: 1200px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-  
+
 }
-  
-.contact-right p{
+
+.contact-right p {
     margin-bottom: 40px;
     text-align: left;
 }
 
-.input-row{
+.input-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.input-row .input-group{
+.input-row .input-group {
     flex-basis: 45%
 }
 
-input{
+input {
     width: 100%;
     border: none;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
     outline: none;
     padding-bottom: 5px;
 
 }
 
-button{
-    background: rgb(232, 88, 4); 
+button {
+    background: rgb(232, 88, 4);
     width: 100px;
     border: none;
     outline: none;
@@ -369,27 +359,27 @@ button{
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-    
+
 }
 
-button:hover{
-    opacity:70%;
-    cursor:pointer;
+button:hover {
+    opacity: 70%;
+    cursor: pointer;
 }
 
-.contact-left h3{
-color: rgb(232, 88, 4);
-font-weight: 600;
-margin-bottom: 30px;
+.contact-left h3 {
+    color: rgb(232, 88, 4);
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
-.contact-right h3{
+.contact-right h3 {
     text-align: left;
 
 
 }
 
-.container2{
+.container2 {
     display: flex;
     max-width: 1200px;
     width: 100%;
@@ -399,21 +389,21 @@ margin-bottom: 30px;
     display: flex;
 }
 
-img{
-  width: 300px;
-  height: 200px; 
+img {
+    width: 300px;
+    height: 200px;
 }
 
 
-img:hover{
-  cursor: pointer;
-  transition: 0.5s;
-  opacity: 0.5;
+img:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.5;
 }
 
 
-footer{
-    color:white;
+footer {
+    color: white;
     text-align: center;
 }
 
@@ -421,24 +411,25 @@ footer{
 .theme-a {
     background: #dca;
     color: #731;
-  }
-  @media (prefers-color-scheme: dark) {
-    .theme-a.adaptive {
-      background: #753;
-      color: #dcb;
-      outline: 5px dashed #000;
-    }
-  }
+}
 
-  .theme-b {
+@media (prefers-color-scheme: dark) {
+    .theme-a.adaptive {
+        background: #753;
+        color: #dcb;
+        outline: 5px dashed #000;
+    }
+}
+
+.theme-b {
     background: #447;
     color: #bbd;
-  }
-  @media (prefers-color-scheme: light) {
+}
+
+@media (prefers-color-scheme: light) {
     .theme-b.adaptive {
-      background: #bcd;
-      color: #334;
-      outline: 5px dotted #000;
+        background: #bcd;
+        color: #334;
+        outline: 5px dotted #000;
     }
-  }
-  
+}
