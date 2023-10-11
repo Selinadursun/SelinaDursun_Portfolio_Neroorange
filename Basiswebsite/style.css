@@ -10,8 +10,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-
-img.logo {
+img.logo{
     margin-top: -121px;
     width: 60%;
     margin-inline: 50%;
@@ -55,8 +54,7 @@ i {
     cursor: pointer;
 }
 
-
-i:hover {
+i:hover{
     transform: scale(1.5);
 }
 
@@ -82,17 +80,6 @@ i:hover {
     margin-top: 117px;
     font-family: monospace;
     text-align: center;
-
-    .gif p {
-        background: #39393939;
-        outline: none;
-        padding: 15px 35px;
-        color: #fff;
-        margin-top: 25px;
-        font-weight: 500;
-        letter-spacing: 1px;
-    }
-
 }
 
 header {
@@ -101,8 +88,7 @@ header {
     margin-bottom: 2%;
 }
 
-
-.gif {
+.gif{
     width: 100%;
     background-image: url(https://media.giphy.com/media/BOPAzQiBMakUAY69U3/giphy.gif);
     background-position: center;
@@ -124,8 +110,7 @@ h2 {
     margin-top: 41px;
 }
 
-
-footer {
+footer{
     text-align: center;
 }
 
@@ -175,15 +160,13 @@ h2 {
 
 }
 
-
-img.alignright {
+img.alignright{
     float: right;
     padding: 10px;
     width: 150px;
 }
 
-
-body {
+body{
     background: rgb(0, 0, 0);
 }
 
@@ -247,20 +230,16 @@ body {
 .image-text {
     font-family: Poppins;
     padding-top: 20px;
-
 }
 
 .img-text p {
     font-size: 15px;
     font-weight: 400;
-    font-weight: 30px
 }
 
 .single-box:hover {
     background: rgb(232, 88, 4);
     color: #fff;
-
-
 }
 
 body {
@@ -278,7 +257,6 @@ body {
     text-align: left;
     text-align: center;
     color: white;
-
 }
 
 .container {
@@ -303,7 +281,7 @@ body {
     color: #fff;
 }
 
-h3 {
+h3{
     margin-bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -315,15 +293,13 @@ h3 {
     margin-top: 112px;
 }
 
-
-h4 {
+h4{
     text-align: center;
     display: flex;
     max-width: 1200px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .contact-right p {
@@ -359,7 +335,6 @@ button {
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-
 }
 
 button:hover {
@@ -375,8 +350,6 @@ button:hover {
 
 .contact-right h3 {
     text-align: left;
-
-
 }
 
 .container2 {
@@ -401,35 +374,7 @@ img:hover {
     opacity: 0.5;
 }
 
-
 footer {
     color: white;
     text-align: center;
-}
-
-
-.theme-a {
-    background: #dca;
-    color: #731;
-}
-
-@media (prefers-color-scheme: dark) {
-    .theme-a.adaptive {
-        background: #753;
-        color: #dcb;
-        outline: 5px dashed #000;
-    }
-}
-
-.theme-b {
-    background: #447;
-    color: #bbd;
-}
-
-@media (prefers-color-scheme: light) {
-    .theme-b.adaptive {
-        background: #bcd;
-        color: #334;
-        outline: 5px dotted #000;
-    }
 }
