@@ -15,7 +15,6 @@ img.logo{
     width: 60%;
     margin-inline: 50%;
     text-align: center;
-
 }
 
 a {
@@ -30,7 +29,6 @@ article {
     font-size: 45px;
     padding: 91px;
     font-family: monospace;
-
 }
 
 li {
@@ -42,7 +40,6 @@ li {
     cursor: pointer;
     color: black
 }
-
 
 li:hover {
     font-weight: 900;
@@ -68,7 +65,6 @@ i:hover{
     display: flex;
     margin-top: auto;
     height: 500px;
-
 }
 
 .gif h1 {
@@ -290,14 +286,11 @@ h3{
     align-items: center;
     text-align: center;
     color: white;
-    margin-top: 112px;
 }
 
 h4{
     text-align: center;
     display: flex;
-    max-width: 1200px;
-    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
 }
