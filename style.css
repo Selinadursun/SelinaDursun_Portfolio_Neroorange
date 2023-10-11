@@ -301,7 +301,6 @@ h4{
 }
 
 .input-row {
-    display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
