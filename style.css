@@ -92,6 +92,15 @@ h2 {
     margin-top: 41px;
 }
 
+article {
+    color: white;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 91px;
+    font-family: monospace;
+}
+
 footer{
     text-align: center;
 }
