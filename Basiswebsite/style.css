@@ -353,6 +353,8 @@ button:hover {
 }
 
 .container2 {
+    width: 300px;
+    height: 200px; 
     display: flex;
     max-width: 1200px;
     width: 100%;
@@ -360,10 +362,9 @@ button:hover {
     justify-content: center;
     padding: 68px;
     display: flex;
+   
 }
 
-.container2 img { width: 300px; height: 200px; 
-}
 
 img {
     width: 300px;
