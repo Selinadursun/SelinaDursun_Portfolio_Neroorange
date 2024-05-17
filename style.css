@@ -336,16 +336,8 @@ button:hover {
     text-align: left;
 }
 
-.container2 {
-    max-width: 1200px;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 68px;
-    display: flex;
-   
-}
 
+.container2 {
     display: flex;
     max-width: 1200px;
     width: 100%;
